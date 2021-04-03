@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(./MyriadPro-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: 'Myriad Pro Light SemiExtended';
+  font-style:  normal;
+  font-weight: 300;
+  src: url(./roboto-medium.woff) format("woff");
+}
