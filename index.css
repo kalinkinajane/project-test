@@ -1,270 +1,497 @@
-.page{
-    font-family: 'Myriad Pro', 'Myriad Pro Light SemiExtended', sans-serif;
-    margin: 0 auto;
-    
+.page {
+  font-family: "Myriad Pro", "Myriad Pro Light SemiExtended", sans-serif;
+  margin: 0 auto;
 }
-.header__top{
-    background-color: #00aa4b;
-    color: white;
-    padding-top: 17px;
-    padding-bottom: 15px;
+.header__top {
+  background-color: #00aa4b;
+  color: white;
+  padding-top: 17px;
+  padding-bottom: 15px;
 }
-.menu-top{
-    max-width: 1545px;
-    width: 100%;
-     margin: auto;
- }
- .menu-top__nav{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
- }
- .menu-top__list{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    font-family: 'Myriad Pro';
-    font-size: 16px;
-    line-height: 28px;
-    width: 43%;
-    padding: 0 28px;
-    border-left: 1px solid rgb(255, 255, 255, 0.251);
- }
- .menu-top__list:first-child{
-    border-left: none;
-    padding-left: 0;
-     width: 28%;
- }
- .menu-top__list:last-child{
-    padding-right: 0;
-    width: 40%;
+.menu-top {
+  max-width: 1545px;
+  width: 100%;
+  margin: auto;
 }
- .menu-top__email{
-    vertical-align: middle; 
-    margin-right: 8px;
-    width: 20px;
-    height: 14px;
- }
- .menu-top__phone{
-    vertical-align: middle;  
-    margin-right: 5px; 
-    width: 14px;
-    height: 16px;
- }
- .header__search{
-    background-color: #e8e7e7;
-} 
-.header__search-conteiner{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    max-width: 1545px;
-    width: 100%;
-     margin: auto;
-     padding-top: 12px;
-     padding-bottom: 12px;
+.menu-top__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo__image{
-    vertical-align: bottom;
-    margin-right: 8px;
+.menu-top__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  line-height: 28px;
+  width: 43%;
+  padding: 0 28px;
+  border-left: 1px solid rgb(255, 255, 255, 0.251);
 }
-.logo__text{
-   text-align: center;
-    font-size: 33px;
+.menu-top__list:first-child {
+  border-left: none;
+  padding-left: 0;
+  width: 28%;
 }
-.header__form-conteiner{
-    width: 57.2%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.menu-top__list:last-child {
+  padding-right: 0;
+  width: 40%;
 }
-select{
-    width: 65px;
-    height: 35px;
-    color: #777777;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    appearance: none;
-    background: url(./image/select-icon.png) no-repeat  86% / 15%;
-    background-color: #f1f1f1;
-    padding-left: 20px;
+.menu-top__email {
+  vertical-align: middle;
+  margin-right: 8px;
+  width: 20px;
+  height: 14px;
 }
-form{
-    margin: 0;
-    display: flex;
-    flex-grow: 2;
+.menu-top__phone {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 14px;
+  height: 16px;
 }
-.header__input{
-    width: 94%;
-    border: none;
+.header__search {
+  background-color: #e8e7e7;
 }
-.header__button-search{
-    background: url(./image/лупа.png) no-repeat center;
-    width: 48px;
-    height: 34px;
-    border: none;
-    background-color: #ffaf2d;
-    border-radius: 0 5px 5px 0;
+.header__search-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1545px;
+  width: 100%;
+  margin: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
-.header__supplier{
-    width: 136px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.logo__image {
+  vertical-align: bottom;
+  margin-right: 8px;
 }
-.supplier__image{
-    width: 34px;
-    height: 34px;
+.logo__text {
+  text-align: center;
+  font-size: 33px;
 }
-.supplier__text{
-width: 94px;
-font-size: 14px;
-line-height: 16px;
-margin: 0;
+.header__form-conteiner {
+  width: 57.2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.header__basket{
-    width: 128px;
-    display: flex;
-    justify-content: space-between;
+select {
+  width: 65px;
+  height: 35px;
+  color: #777777;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  appearance: none;
+  background: url(./image/select-icon.png) no-repeat 86% / 15%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
 }
-.basket{
-position: relative;
-width: 30px;
-height: 37px;
+form {
+  margin: 0;
+  display: flex;
+  flex-grow: 2;
 }
-.basket__count{
-margin: 0;
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-color: #ff8c00;
+.header__input {
+  width: 94%;
+  border: none;
 }
-.basket__image{
-    position: absolute;
+.header__button-search {
+  background: url(./image/лупа.png) no-repeat center;
+  width: 48px;
+  height: 34px;
+  border: none;
+  background-color: #ffaf2d;
+  border-radius: 0 5px 5px 0;
+}
+.header__supplier {
+  width: 136px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.supplier__image {
+  width: 34px;
+  height: 34px;
+}
+.supplier__text {
+  width: 94px;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+.header__basket {
+  width: 128px;
+  display: flex;
+  justify-content: space-between;
+}
+.basket {
+  position: relative;
+  width: 30px;
+  height: 37px;
+}
+.basket__count {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ff8c00;
+}
+.basket__image {
+  position: absolute;
   bottom: 0;
 }
-.basket__conteiner{
-    width: 86px;
+.basket__conteiner {
+  width: 86px;
 }
-.basket__text{
-    margin: 0;
-    font-size: 14px;
-    line-height: 16px;
-    color: #777777;
-} 
-.basket__sum{
-margin: 0;
-font-size: 16px;
-    line-height: 18px;
+.basket__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #777777;
 }
-.header__products{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.11);
+.basket__sum {
+  margin: 0;
+  font-size: 16px;
+  line-height: 18px;
 }
-.header__products-conteiner{
-    max-width: 1545px;
-    width: 100%;
-     margin: auto;
-     padding-top: 10px;
-     padding-bottom: 10px;
+.header__products {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.11);
 }
-.products__nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.header__products-conteiner {
+  max-width: 1545px;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.products__text{
-    font-size: 16px;
-    line-height: 18px;
-    margin: 8px 0 0 0;
+.products__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.products__img{
-    margin: auto;
-    display: block;
-    width: 56px;
-    height: 56px;
+.products__text {
+  font-size: 16px;
+  line-height: 18px;
+  margin: 8px 0 0 0;
+}
+.products__img {
+  margin: auto;
+  display: block;
+  width: 56px;
+  height: 56px;
 }
 
-.content{
-    background-color: #f4f2f2;
-}  
+.content {
+  background-color: #f4f2f2;
+}
+.promo__content {
+  max-width: 1545px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.nav__content {
+  width: 19.3%;
+  padding-top: 28px;
+  padding-bottom: 4px;
+}
+.nav__title {
+  margin: 0;
+  font-size: 24px;
+  list-style: 45px;
+  text-align: center;
+  color: #ffaf2d;
+}
+.nav__list {
+  width: 100%;
+  padding: 5px 0 0;
+  margin: 0;
+  list-style: none;
+}
+.nav__conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+.nav__item {
+  border-bottom: 1px solid rgb(186, 186, 186, 0.251);
+}
+.nav__item:last-child {
+  border-bottom: none;
+}
+.nav__text {
+  margin: 0;
+  line-height: 45px;
+  font-size: 16px;
+  font-family: "Myriad Pro Light SemiExtended";
+  color: #303030;
+}
+.nav__item-pointer {
+  color: rgba(48, 48, 48, 0.4);
+  font-size: 14px;
+}
+.nav__content:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+.slider {
+  border: solid red 1px;
+  width: 58.2%;
+}
+.slider__img {
+  width: 100%;
+  object-fit: none;
+}
+.sale {
+  border: 2px solid #ff8c00;
+  width: 19.3%;
+  padding: 217px 0 52px;
+}
+.sale__conteiner {
+  width: 69%;
+  margin-left: 33px;
+}
+.sale__image {
+  width: 70px;
+  height: 86px;
+}
+.sale__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Myriad Pro Light SemiExtended";
+  color: #121212;
+}
+.sale__title {
+  margin: 0 0 22px;
+  font-family: "Myriad Pro";
+  font-size: 36px;
+  line-height: 40px;
+}
+.sale__link {
+  margin: 0;
+  color: #ff8c00;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Myriad Pro Light SemiExtended";
+}
+.brands {
+  max-width: 1545px;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+}
+.brand__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  background-color: #ffffff;
+}
+.brand__item {
+  height: 69px;
+  width: 18%;
+  border-right: solid 1px rgb(186, 186, 186, 0.251);
+  display: flex;
+  align-items: center;
+}
+.brand__image {
+  object-fit: contain;
+  margin: auto;
+}
+.Фигура_528_копия_5 {
+  border-width: 1px;
+  border-color: rgb(232, 231, 231);
+  border-style: solid;
+  position: absolute;
+  left: 443px;
+  top: 744px;
+  width: 0px;
+  height: 69px;
+  z-index: 50;
+}
+
+.brand__link {
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  color: #232323;
+  max-width: 95px;
+  margin: 0 auto;
+}
+.news {
+  max-width: 1420px;
+  width: 100%;
+  margin: auto;
+  padding-top: 173px;
+}
+.news__title {
+  margin-bottom: 37px;
+  font-family: "Myriad Pro";
+  color: rgb(18, 18, 18);
+  line-height: 1.2;
+  font-size: 40px;
+}
+.news__conteiner {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 34.6% 57.9%;
+  justify-content: space-between;
+  grid-row-gap: 40px;
+}
+.news__item-big {
+  width: 100%;
+  grid-row: 1/4;
+}
+.news__info-big {
+  margin-top: 29px;
+}
+.news__item-row {
+  display: flex;
+  justify-content: space-between;
+}
+.news__img {
+  width: 100%;
+}
+.news__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news__author {
+  margin: 0;
+  color: #00aa4b;
+  font-size: 16px;
+}
+.news__data {
+  margin: 0;
+  color: #777777;
+  font-size: 16px;
+}
+.news__img-row {
+  width: 22.9%;
+}
+.news__info {
+  width: 73.9%;
+}
+.news__item-title {
+  width: 100%;
+  font-family: "Myriad Pro";
+  margin: 10px 0 0;
+  font-size: 23px;
+  line-height: 26px;
+}
+.news__paragraph {
+  margin: 24px 0 0;
+  font-size: 16px;
+  font-family: "Myriad Pro Light SemiExtended";
+}
+.news__link-button {
+  margin-top: 31px;
+  border: solid 2px rgb(255, 175, 45);
+  border-radius: 25px;
+  width: 167px;
+}
+.news__link {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 86px;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  line-height: 2.5;
+  color: rgb(255, 175, 45);
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1648px) {
-    .menu-top{
-        max-width: 1300px;
-     }
+  .menu-top {
+    max-width: 1300px;
+  }
 }
 @media screen and (max-width: 1400px) {
-    .menu-top{
-        max-width: 1200px;
-     }
-     .menu-top__list{
-        font-size: 14px;
-        padding: 0 20px;
-     }
+  .menu-top {
+    max-width: 1200px;
+  }
+  .menu-top__list {
+    font-size: 14px;
+    padding: 0 20px;
+  }
 }
 @media screen and (max-width: 1300px) {
-    .menu-top{
-        max-width: 1160px;
-     }
-     .menu-top__list{
-        font-size: 14px;
-        padding: 0 15px;
-     }
+  .menu-top {
+    max-width: 1160px;
+  }
+  .menu-top__list {
+    font-size: 14px;
+    padding: 0 15px;
+  }
 }
 @media screen and (max-width: 1200px) {
-    .menu-top{
-        max-width: 1060px;
-     }
+  .menu-top {
+    max-width: 1060px;
+  }
 }
 @media screen and (max-width: 1140px) {
-    .menu-top{
-        max-width: 1000px;
-     }
-     .menu-top__list{
-        font-size: 12px;
-        padding: 0 10px;
-     }
-     .menu-top__email{
-        margin-right: 4px;
-       width: 14px;
-       height: 10px;
-     }
-     .menu-top__phone{
-        margin-right: 2px;
-        width: 11px;
-        height: 13px;
-     }
+  .menu-top {
+    max-width: 1000px;
+  }
+  .menu-top__list {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  .menu-top__email {
+    margin-right: 4px;
+    width: 14px;
+    height: 10px;
+  }
+  .menu-top__phone {
+    margin-right: 2px;
+    width: 11px;
+    height: 13px;
+  }
 }
 @media screen and (max-width: 1040px) {
-    .menu-top{
-        max-width: 900px;
-     }
+  .menu-top {
+    max-width: 900px;
+  }
 }
 @media screen and (max-width: 969px) {
-    .menu-top{
-        max-width: 900px;
-     }
-     .menu-top__list{
-        font-size: 12px;
-        padding: 0 8px;
-     }
+  .menu-top {
+    max-width: 900px;
+  }
+  .menu-top__list {
+    font-size: 12px;
+    padding: 0 8px;
+  }
 }
 @media screen and (max-width: 900px) {
-    .menu-top{
-        max-width: 768px;
-     }
-     .menu-top__list{
-        font-size: 10px;
-        padding: 0 4px;
-     }
+  .menu-top {
+    max-width: 768px;
+  }
+  .menu-top__list {
+    font-size: 10px;
+    padding: 0 4px;
+  }
 }
 @media screen and (max-width: 767px) {
-    .menu-top{
-        max-width: 767px;
-     }
+  .menu-top {
+    max-width: 767px;
+  }
 }
