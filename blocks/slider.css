@@ -1,0 +1,219 @@
+.image-slider {
+  width: 58.2%;
+  height: 476px;
+}
+.slider__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide__conteiner {
+  position: absolute;
+  text-align: left;
+  width: 51%;
+  top: 60px;
+  left: 67px;
+}
+.slide__subtitle {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(119, 119, 119);
+  line-height: 1.25;
+}
+.slide__title {
+  position: relative;
+  margin: 72px 0 16px;
+  font-size: 40px;
+  font-family: "Myriad Pro";
+  color: rgb(243, 241, 241);
+  line-height: 42px;
+}
+.slide__text {
+  margin: 0 0 65px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #f3f1f1;
+  font-family: "Myriad Pro Light SemiExtended";
+}
+.slide__button {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 18px;
+  background-color: rgb(255, 175, 45);
+  border-radius: 50px;
+  width: 129px;
+  padding: 7px 0 6px;
+  text-align: center;
+  border: none;
+}
+.image-slider .swiper-button-prev:focus {
+  outline: none;
+}
+.image-slider .swiper-button-next:focus {
+  outline: none;
+}
+.image-slider .swiper-button-next::after,
+.image-slider .swiper-button-prev::after {
+  color: rgba(255, 255, 255, 0.502);
+  font-size: 24px;
+}
+.image-slider .swiper-button-prev {
+  display: none;
+}
+.image-slider .swiper-pagination-bullets {
+  bottom: 33px;
+}
+.image-slider .swiper-pagination-bullet-active {
+  border-width: 1px;
+  border-color: rgb(35, 35, 35);
+  border-style: solid;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+.image-slider .swiper-pagination-bullet {
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 50%;
+}
+@media (max-width: 1648px) {
+  .slide__title {
+    margin: 62px 0 16px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 1140px) {
+  .image-slider {
+    width: 58.2%;
+  }
+}
+@media (max-width: 1140px) {
+  .slide__title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 900px) {
+  .image-slider {
+    width: 56.2%;
+    height: 400px;
+  }
+  .slide__conteiner {
+    width: 65%;
+    top: 40px;
+    left: 37px;
+  }
+  .slide__text {
+    margin: 0 0 45px;
+    font-size: 16px;
+  }
+  .slide__button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .image-slider {
+    width: 100%;
+    height: 556px;
+  }
+ 
+  .image-slider .swiper-button-prev {
+    display: block;
+  }
+  .image-slider .swiper-button-next {
+    top: 92%;
+  }
+  .image-slider .swiper-button-prev {
+    top: 95%;
+  }
+  .slide__conteiner {
+    position: absolute;
+    text-align: left;
+    width: 56%;
+    top: 87px;
+    left: 32px;
+  }
+  .slide__subtitle {
+    margin: 0;
+    font-size: 25px;
+    line-height: 33px;
+    font-family: "Myriad Pro Light SemiExtended";
+  }
+  .slide__title {
+    margin: 50px 0 25px;
+    font-size: 40px;
+    line-height: 42px;
+    width: 96%;
+    white-space: normal;
+  }
+  .slide__text {
+    margin: 0 0 35px;
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .slide__button {
+    font-size: 30px;
+    line-height: 40px;
+    width: 213px;
+    padding: 5px 0 4px;
+  }
+}
+@media (max-width: 690px) {
+  .image-slider {
+    height: 400px;
+  }
+  .slide__conteiner {
+    top: 57px;
+    left: 32px;
+  }
+  .slide__subtitle {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .slide__title {
+    margin: 15px 0 10px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .slide__text {
+    margin: 0 0 35px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .slide__button {
+    font-size: 16px;
+    line-height: 18px;
+    width: 110px;
+  }
+}
+@media (max-width: 413px) {
+  .image-slider {
+    height: 300px;
+  }
+  .slide__conteiner {
+    top: 20px;
+    left: 22px;
+  }
+  .slide__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .slide__title {
+    margin: 15px 0 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .slide__text {
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .slide__button {
+    font-size: 14px;
+    line-height: 16px;
+    width: 100px;
+  }
+}

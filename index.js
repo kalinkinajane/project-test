@@ -11,6 +11,13 @@ new Swiper(".image-slider", {
   loop: true,
 });
 
+$('#button').click(function() {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($('#text').text()).select();
+  document.execCommand("copy");
+});
+
 const btn = document.querySelector(".button__copy");
 const text = document.querySelector(".email");
 const phone = document.querySelector(".menu__phone");
@@ -26,6 +33,7 @@ const itemOffer = document.querySelector(".footer__subtitle-offer");
 const itemContact = document.querySelector(".footer__subtitle-contact");
 const itemHeaderDevise = document.querySelector(".nav__item-mobile");
 const navListHeader = document.querySelector(".nav__list");
+const phoneMob = document.querySelector(".phone");
 
 
 function toggleList (list){
@@ -45,6 +53,9 @@ window.addEventListener('click', function (evt) {
 text.addEventListener('click', ()=>{
   btn.classList.add('email__copy-active');
 });
+phoneMob.addEventListener('click', ()=>{
+  popup.classList.add('popup_open');
+});
 phone.addEventListener('click', ()=>{
   popup.classList.add('popup_open');
 });
@@ -52,10 +63,8 @@ closePopup.addEventListener('click', ()=>{
   popup.classList.remove('popup_open');
 });
 
-$('#button').click(function() {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($('#text').text()).select();
-  document.execCommand("copy");
-});
-
+document.querySelector(".header__burger").addEventListener('click',  () => { 
+  // document.querySelector(".menu-top").classList.toggle('menu-top__color')
+  document.querySelector(".header__burger").classList.toggle('burger_active')
+  document.querySelector(".menu-top__nav").classList.toggle('menu-top__nav-active')
+}); 

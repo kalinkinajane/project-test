@@ -1,0 +1,125 @@
+.sale {
+  border: 2px solid #ff8c00;
+  background-color: #ffffff;
+  width: 19.3%;
+}
+.sale__conteiner {
+  margin-top: 212px;
+  margin-bottom: 52px;
+  width: 69%;
+  margin-left: 33px;
+}
+.sale__image {
+  width: 70px;
+  height: 86px;
+}
+.sale__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Myriad Pro Light SemiExtended";
+  color: #121212;
+}
+.sale__title {
+  margin: 0 0 22px;
+  font-family: "Myriad Pro";
+  font-size: 36px;
+  line-height: 40px;
+}
+.sale__link {
+  margin: 0;
+  color: #ff8c00;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Myriad Pro Light SemiExtended";
+}
+@media (max-width: 1648px) {
+  .sale__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 1400px) {
+  .sale__conteiner {
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1140px) {
+  .sale__conteiner {
+    width: 80%;
+  }
+  .sale__text {
+    font-size: 12px;
+  }
+  .sale__title {
+    font-size: 20px;
+  }
+  .sale__link {
+    font-size: 12px;
+  }
+}
+@media (max-width: 900px) {
+  .sale__conteiner {
+    width: 90%;
+    margin: 136px auto 52px;
+  }
+}
+@media (max-width: 767px) {
+  .sale {
+    width: 91.5%;
+    margin: 30px auto;
+  }
+  .sale__conteiner {
+    margin-top: 83px;
+    margin-bottom: 52px;
+    width: 50%;
+    margin-left: 60px;
+  }
+  .sale__image {
+    width: 118px;
+    height: 146px;
+  }
+  .sale__text {
+    margin-top: 24px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .sale__title {
+    margin: 0 0 40px;
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .sale__link {
+    font-size: 30px;
+    line-height: 55px;
+  }
+}
+@media (max-width: 690px) {
+  .sale__conteiner {
+    width: 70%;
+    margin-top: 63px;
+    margin-bottom: 52px;
+    margin-left: 30px;
+  }
+  .sale__text {
+    margin-top: 24px;
+    font-size: 18px;
+  }
+  .sale__title {
+    margin: 0 0 30px;
+    font-size: 30px;
+  }
+  .sale__link {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .sale__conteiner {
+    margin-top: 33px;
+    margin-bottom: 22px;
+  }
+}

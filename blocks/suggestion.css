@@ -1,0 +1,324 @@
+.suggestion {
+  padding-top: 172px;
+}
+.suggestion__title {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: "Myriad Pro";
+  color: rgb(35, 35, 35);
+  line-height: 1.2;
+  text-align: center;
+}
+.suggestion__text {
+  width: 45.5%;
+  margin: 16px auto 66px;
+  color: #787878;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+}
+.suggestion__cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 41.8% 55.2%;
+  grid-gap: 13px;
+}
+.card__type-big {
+  width: 100%;
+  grid-row: 1/3;
+}
+.card__img {
+  width: 100%;
+  height: 100%;
+}
+.card__container-big {
+  max-width: 51%;
+  margin: auto;
+  top: 69px;
+  left: 24.6%;
+}
+.card {
+  position: relative;
+}
+.card__container {
+  position: absolute;
+}
+.card__author {
+  margin: 0;
+  text-transform: uppercase;
+  color: rgb(18, 18, 18);
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  line-height: 1.2;
+  text-align: center;
+}
+.card__title {
+  margin: 14px 0 27px;
+  font-size: 30px;
+  font-family: "Myriad Pro";
+  color: rgb(18, 18, 18);
+  line-height: 1.2;
+  text-align: center;
+}
+.card__text {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(119, 119, 119);
+  line-height: 1.2;
+  text-align: center;
+}
+.card__container-black {
+  width: 56.1%;
+  top: 121px;
+  right: 96px;
+}
+.text-left {
+  text-align: left;
+}
+.card__author-black {
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.card__title-black {
+  color: rgb(255, 255, 255);
+  max-width: 50%;
+  margin: 0 0 27px;
+}
+.card__text-black {
+  margin: 0;
+}
+.card__container-cold {
+  width: 50%;
+  top: 96px;
+  left: 62px;
+}
+@media (max-width: 1400px) {
+  .card__container-big {
+    top: 39px;
+    left: 24.6%;
+  }
+  .card__title {
+    margin: 10px 0 18px;
+    font-size: 24px;
+  }
+  .card__container-black {
+    width: 50%;
+    top: 80px;
+    left: 30%;
+  }
+  .card__container-cold {
+    width: 50%;
+    top: 66px;
+    left: 62px;
+  }
+}
+@media (max-width: 1300px) {
+  .card__container-big {
+    max-width: 64%;
+    top: 39px;
+    left: 16%;
+  }
+  .card__container-black {
+    width: 60%;
+    top: 60px;
+    left: 30%;
+  }
+  .card__container-cold {
+    width: 60%;
+    top: 50px;
+    left: 30px;
+  }
+}
+@media (max-width: 1140px) {
+  .suggestion__title {
+    font-size: 32px;
+  }
+  .card__container-big {
+    max-width: 80%;
+    left: 10%;
+    top: 5%;
+  }
+  .card__container-cold {
+    max-width: 80%;
+    left: 5%;
+    top: 10%;
+  }
+
+}
+@media (max-width: 969px) {
+  .suggestion {
+    padding-top: 100px;
+  }
+  .card__container-big {
+    max-width: 90%;
+    left: 5%;
+    top: 39px;
+  }
+  .card__author {
+    font-size: 16px;
+  }
+  .suggestion__text {
+    width: 70%;
+  }
+  .card__title {
+    margin: 10px 0 10px;
+    font-size: 20px;
+  }
+  .card__text {
+    font-size: 14px;
+  }
+  .card__container-black {
+    width: 70%;
+    top: 40px;
+    left: 30%;
+  }
+  .card__container-cold {
+    width: 70%;
+    top: 30px;
+    left: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .suggestion {
+    padding-top: 0;
+  }
+  .suggestion__title {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .suggestion__text {
+    width: 100%;
+    margin: 22px auto 76px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .suggestion__cards {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .suggestion__cards:last-child {
+    margin-bottom: 0;
+  }
+  .card__img {
+    width: 100%;
+    height: 100%;
+  }
+  .card__container-big {
+    max-width: 51%;
+    margin: 0;
+    top: 118px;
+    left: 67px;
+  }
+  .card__container-black {
+    max-width: 56%;
+    margin: 0;
+    top: 75px;
+    left: 276px;
+  }
+  .card__container-cold {
+    max-width: 56%;
+    top: 70px;
+    left: 69px;
+  }
+  .card__author {
+    font-size: 30px;
+    text-align: left;
+  }
+  .card__title {
+    margin: 25px 0 50px;
+    font-size: 40px;
+    text-align: left;
+  }
+  .card__text {
+    font-size: 25px;
+    font-family: "Myriad Pro Light SemiExtended";
+    color: #777777;
+    text-align: left;
+  }
+  .card__author-black {
+    color: rgb(255, 255, 255);
+  }
+  .card__title-black {
+    color: rgb(255, 255, 255);
+  }
+  .card__text-black {
+    margin: 0;
+  }
+}
+@media (max-width: 690px) {
+  .suggestion__title {
+    font-size: 30px;
+  }
+  .suggestion__text {
+    margin: 15px auto 25px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .card__container-big {
+    max-width: 60%;
+    top: 40px;
+    left: 27px;
+  }
+  .card__author {
+    font-size: 20px;
+  }
+  .card__title {
+    margin: 15px 0 20px;
+    font-size: 22px;
+  }
+  .card__text {
+    font-size: 16px;
+  }
+  .card__container-black {
+    max-width: 60%;
+    top: 25px;
+    left: 140px;
+  }
+  .card__container-cold {
+    max-width: 56%;
+    top: 25px;
+    left: 27px;
+  }
+}
+@media (max-width: 413px) {
+  .suggestion__title {
+    font-size: 26px;
+  }
+  .suggestion__text {
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 300px;
+  }
+  .card__author {
+    font-size: 18px;
+  }
+  .card__title {
+    margin: 10px 0 10px;
+    font-size: 16px;
+  }
+  .card__text {
+    font-size: 14px;
+  }
+  .card__container-big {
+    max-width: 60%;
+    top: 30px;
+    left: 20px;
+  }
+  .card__container-black {
+    max-width: 66%;
+    top: 20px;
+    left: 97px;
+  }
+  .card__container-cold {
+    max-width: 56%;
+    top: 20px;
+    left: 20px;
+  }
+}

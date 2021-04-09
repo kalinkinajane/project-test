@@ -1,0 +1,138 @@
+.footer-navigation {
+  background-color: #232323;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 93px;
+  padding-bottom: 84px;
+  font-family: "Myriad Pro Light SemiExtended";
+  color: rgb(119, 119, 119);
+}
+.nav__list-button {
+  display: none;
+}
+.footer__list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.footer__link {
+  font-family: "Myriad Pro Light SemiExtended";
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.footer__subtitle {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0 0 30px;
+}
+.contact__list {
+  margin: 0 0 24px;
+  list-style: none;
+  padding: 0;
+  font-family: "Myriad Pro Light SemiExtended";
+  color: #ffffff;
+}
+.contact__list:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .footer-navigation {
+    background-color: #232323;
+  }
+  .footer__subtitle {
+    font-size: 30px;
+    line-height: 24px;
+    font-family: "Myriad Pro Light SemiExtended";
+    color: rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(186, 186, 186, 0.251);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0;
+    margin: 0;
+  }
+  .footer-nav__list:last-child p {
+    border-bottom: none;
+  }
+  .navigation {
+    display: block;
+    width: calc(100% - 100px);
+    padding: 83px 0 76px;
+  }
+  .nav__list-button {
+    line-height: 0.8;
+    display: block;
+  }
+  .footer-nav__list {
+    position: relative;
+    margin: 0;
+  }
+  .footer__list {
+    position: absolute;
+    display: none;
+    top: 93px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    background-color: #232323;
+    z-index: 9;
+  }
+  .active {
+    display: block;
+  }
+  .footer__list li {
+    padding-left: 20px;
+    border-bottom: solid 1px rgb(186, 186, 186, 0.251);
+  }
+  .footer__list li:last-child {
+    border-bottom: none;
+  }
+  .footer__link {
+    font-family: "Myriad Pro Light SemiExtended";
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  .contact__list {
+    margin: 0 0 24px;
+    list-style: none;
+    padding: 0;
+    font-family: "Myriad Pro Light SemiExtended";
+    color: #ffffff;
+  }
+  .contact__list:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 690px) {
+  .navigation {
+    padding: 50px 0 50px;
+  }
+  .footer__subtitle {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  .footer__list {
+    top: 65px;
+  }
+}
+@media (max-width: 413px) {
+  .navigation {
+    padding: 35px 0 40px;
+  }
+  .footer__subtitle {
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  .footer__list {
+    top: 60px;
+  }
+}

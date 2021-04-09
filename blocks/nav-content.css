@@ -1,0 +1,153 @@
+.nav-content {
+  width: 19.3%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.nav__title {
+  font-family: "Myriad Pro";
+  margin: 0 0 10px;
+  font-size: 24px;
+  line-height: 27px;
+  list-style: 45px;
+  text-align: center;
+  color: #ffaf2d;
+}
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.nav__conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto 0;
+}
+.nav__item {
+  border-bottom: 1px solid rgb(186, 186, 186, 0.251);
+}
+.nav__item:last-child {
+  border-bottom: none;
+}
+.nav__text {
+  margin: 0;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: "Myriad Pro Light SemiExtended";
+  color: #303030;
+}
+.nav__item-pointer {
+  color: rgba(48, 48, 48, 0.4);
+  font-size: 14px;
+  margin: 0;
+}
+.nav-content:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+@media (max-width: 1648px) {
+  .nav__title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .nav__title {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  .nav__text {
+    font-size: 12px;
+    text-align: left;
+  }
+}
+@media (max-width: 1140px) {
+  .nav__conteiner {
+    width: 95%;
+    margin: 0 auto 0;
+  }
+}
+@media (max-width: 900px) {
+  .nav-content {
+    width: 22.5%;
+    padding-top: 10px;
+    padding-bottom: 4px;
+  }
+  .nav__title {
+    font-size: 14px;
+  }
+  .nav__text {
+    line-height: 34px;
+  }
+  .nav__list {
+    margin: 4px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .nav__title {
+    display: none;
+  }
+  .nav__list {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    background-color: #f1f1f1;
+    left: 0;
+    top: 182px;
+  }
+  .active {
+    display: block;
+  }
+  .nav__item-pointer {
+    font-size: 30px;
+    line-height: 16px;
+  }
+  .nav__conteiner {
+    width: 91%;
+  }
+  .nav__text {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+  .nav__item {
+    padding: 24px 0;
+  }
+  .nav-content:hover {
+    background-color: #f1f1f1;
+  }
+  .nav-content {
+    padding: 0;
+    width: 100%;
+    font-family: "Myriad Pro Light SemiExtended";
+    background-color: #f1f1f1;
+  }
+}
+@media (max-width: 690px) {
+  .nav__text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .nav__item-pointer {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .nav__item {
+    padding: 18px 0;
+  }
+  .nav__list {
+    top: 122px;
+  }
+}
+@media (max-width: 413px) {
+  .nav__item {
+    padding: 12px 0;
+  }
+  .nav__list {
+    top: 112px;
+  }
+  .nav__list {
+    top: 104px;
+  }
+}
